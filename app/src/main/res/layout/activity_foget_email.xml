@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".foget_email"
+    android:orientation="vertical"
+    android:weightSum="10"
+    android:background="@drawable/gradient"
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/backbutton"
+            android:layout_marginRight="20dp"
+            />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Forget Password"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/white"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:id="@+id/forgetpass"
+            />
+
+        <TextView
+            android:layout_width="279dp"
+            android:layout_height="64dp"
+            android:layout_below="@+id/forgetpass"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="27dp"
+            android:text="Enter the email address you used to create our account and we will email you a link to reset you password"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="12sp"
+            />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2">
+
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:id="@+id/Email"
+            android:hint="Email"
+            android:textColorHint="@color/white"
+
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/signin"
+            android:layout_marginTop="20dp"
+            android:layout_centerHorizontal="true"
+            android:text="Submit"
+            android:layout_below="@id/Email"
+
+            />
+
+
+    </RelativeLayout>
+
+
+
+</LinearLayout>
