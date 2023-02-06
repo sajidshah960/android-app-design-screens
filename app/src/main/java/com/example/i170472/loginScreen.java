@@ -15,7 +15,7 @@ public class loginScreen extends AppCompatActivity {
         new Handler().postDelayed(new Runnable() {
             @Override
             public void run() {
-                Intent i = new Intent(loginScreen.this, foget_email.class);
+                Intent i = new Intent(loginScreen.this, forget_email.class);
                 startActivity(i);
                 finish();
             }
