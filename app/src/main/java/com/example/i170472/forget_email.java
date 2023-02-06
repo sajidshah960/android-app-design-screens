@@ -6,7 +6,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
 
-public class foget_email extends AppCompatActivity {
+public class forget_email extends AppCompatActivity {
     private static int TIME_OUT = 3000;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -15,7 +15,7 @@ public class foget_email extends AppCompatActivity {
         new Handler().postDelayed(new Runnable() {
             @Override
             public void run() {
-                Intent i = new Intent(foget_email.this, forget_password.class);
+                Intent i = new Intent(forget_email.this, forget_password.class);
                 startActivity(i);
                 finish();
             }

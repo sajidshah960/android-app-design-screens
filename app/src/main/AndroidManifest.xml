@@ -16,7 +16,7 @@
             android:name=".forget_password"
             android:exported="true" />
         <activity
-            android:name=".foget_email"
+            android:name=".forget_email"
             android:exported="true" />
         <activity
             android:name=".loginScreen"
